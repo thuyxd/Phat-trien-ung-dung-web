@@ -2,96 +2,75 @@
 <html>
 	<head>
 		<title>Nguyen Thi Thuy</title>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	  <style>
-	  	.body {
-				font-family: "Times New Roman";
+	  	.paper, .name, .specialized, .title-content, .title-level, .row-left {font-family: "Montserrat", sans-serif};
+	  	.col-left-details, .col-left-details, .details-career-goals, .name-school, .time, .size-text { font-size: 18px };
+	  	.paper {
 				margin-bottom: 30px;
 			}
 			.contact {
 				background-color: #215968;
-				color: white;
 			}
 			.level {
 				background-color: #dbeef4;
 				border: 1px solid black;
-				color: black;
 			}
 			.personal-photo {
 				border-radius: 2px;
 				padding-top: 70px;
 				float: center;
-				width: 100%;
-			  	height: auto;
-			  	margin-left: auto;
-			  	margin-right: auto;
-			  	display: block;
+		  	height: auto;
+		  	margin-left: auto;
+		  	margin-right: auto;
+		  	display: block;
 			}
 			.name {
 				text-transform: uppercase;
 				padding-top: 40px;
 				font-weight: bold;
 				text-align: center;
-				font-family: "Times New Roman";
 			}
 			.specialized {
 				text-align: center;
 				font-weight: bold;
 				text-transform: capitalize;
-				font-family: "Times New Roman";
 			}
 			.title-content {
 				text-align: center;
 				font-weight: bold;
 				text-transform: uppercase;
 				padding-top: 30px;
-				font-family: "Times New Roman";
 			}
 			.details {
 				padding-left: 10px;
 				padding-top: 20px;
 			}
-			.col-left-details {
-				font-weight: bold;
-				font-size: 20px;
-			}
-			.col-right-details {
-				font-size: 20px;
-			}
+			
 			.address {
 				padding-bottom: 30px;
 			}
 			.details-career-goals {
 				padding-left: 10px;
-				font-size: 20px;
 				padding-top: 20px;
 			}
 			.title-level {
-				text-align: left;
 				font-weight: bold;
 				text-transform: uppercase;
 				padding-top: 40px;
-				font-family: "Times New Roman";
 			}
 
 			.name-school {
-				text-align: left;
 				text-transform: uppercase;
 				font-style: italic;
 				font-weight: bold;
-				font-size: 20px;
 			}
 			.time {
 				font-style: italic;
 				font-weight: bold;
-				font-size: 20px;
-				text-align: right;
 			}
 			.far {
 				font-size: 24px;
@@ -99,18 +78,12 @@
 			}
 			.row-left {
 				text-transform: uppercase;
-				text-align: left;
-				font-family: "Times New Roman";
 			}
 			.name-company {
 				font-style: italic;
 				font-weight: bold;
 				font-size: 22px;
-				text-align: left;
 				padding-top: 30px;
-			}
-			.size-text {
-				font-size: 20px;
 			}
 			.format-text {
 				padding-left: 50px;
@@ -119,17 +92,16 @@
 				padding-bottom: 40px;
 			}
 			.http {
-				text-decoration: underline;
-				color: blue;
+				text-decoration: underline;			
 			}
 	  </style>
 	</head>
 	<body>
-		<div class="container-fluid body">
+		<div class="container-fluid paper " style="max-width:1000px;">
 			<div class="row">
 				<!-- ---col left--- -->
-				<div class="col-xl-4 col-lg-4 contact container-fluid">					
-					<div class="container">
+				<div class="col-xl-4 col-lg-4 contact container-fluid w3-text-white">					
+					<div class="w3-container">
 						<div class="personal-photo">
 							<img src="https://scontent.fhan3-3.fna.fbcdn.net/v/t1.15752-9/71306188_475619313293439_5134741493809938432_n.jpg?_nc_cat=101&_nc_oc=AQn5kz6uJtGwnt0_YWkfFHg-MiOofe8lNtTGiHIAJ51U7_PlKE2wKm4dZD-NTw_fEuk&_nc_ht=scontent.fhan3-3.fna&oh=e5d2f07c8209bd10714683ac694f9547&oe=5E3A43B8" alt="MyPicture" style="width:100%">
 						</div>
@@ -143,7 +115,7 @@
 							</h4>
 						</div>
 					</div>
-					<div class="container">
+					<div class="w3-container">
 						<!-- personal-information -->
 						<div>
 							<div>
@@ -151,43 +123,13 @@
 									Thông tin cá nhân
 								</h3>
 							</div>
-							<div class="row details">
-								<div class="col-xl-4 col-lg-3 col-left-details">
-									<p>Ngày sinh</p>																																													
-								</div>
-								<div class="col-xl-8 col-lg-9 col-right-details">
-									<p>18.11.1998</p>																																												
-								</div>
-								<div class="col-xl-4 col-lg-3 col-left-details">
-									<p>Giới tính</p>
-								</div>
-								<div class="col-xl-8 col-lg-9 col-right-details">
-									<p>Nữ</p>
-								</div>
-								<div class="col-xl-4 col-lg-3 col-left-details">
-									<p>SĐT</p>
-								</div>
-								<div class="col-xl-8 col-lg-9 col-right-details">
-									<p>0349.749.393</p>
-								</div>
-								<div class="col-xl-4 col-lg-3 col-left-details">
-									<p >Địa chỉ</p>
-								</div>
-								<div class="col-xl-8 col-lg-9 col-right-details">
-									<p>Số 20, ngõ 435 Nguyễn Trãi, Thanh Xuân, Hà Nội</p>
-								</div>
-								<div class="col-xl-4 col-lg-3 col-left-details">
-									<p>Email</p>
-								</div>
-								<div class="col-xl-8 col-lg-9 col-right-details">
-									<p>thuynt181998@gmail.com</p>
-								</div>
-								<div class="col-xl-4 col-lg-3 col-left-details">
-									<p>Github</p>
-								</div>
-								<div class="col-xl-8 col-lg-9 col-right-details">
-									<p>https://github.com/thuyxd</p>
-								</div>
+							<div class=" details">
+								<p><i class="fa fa-calendar fa-fw w3-large w3-text-white"></i>  Ngày sinh: 18.11.1998</p>
+								<p><i class='fa fa-fw w3-large w3-text-white'>&#xf1ae;</i>  Giới tính: Nữ</p>
+								<p><i class="fa fa-phone fa-fw w3-large w3-text-white"></i>  SĐT: 0349.749.393</p>
+								<p><i class="fa fa-home fa-fw w3-text-white w3-large"></i>  Địa chỉ: Số 20, ngõ 435 Nguyễn Trãi, Thanh Xuân, Hà Nội</p>
+								<p><i class='far fa-fw w3-text-white w3-large'>&#xf0e0;</i>  Email: thuynt181998@gmail.com</p>
+								<p><i class='fab fa-fw w3-text-white w3-large'>&#xf082;</i>  Facebook: https://www.facebook.com/profile.php?id=100011151400332</p>						
 							</div>
 						</div>						
 						<!-- career goals -->
@@ -221,14 +163,15 @@
 						</div>					
 					</div>
 				</div>
+				<!-- end col left -->
 				<!-- ---col right--- -->
-				<div class="col-xl-8 col-lg-8 level container-fluid">
-					<div class="container">
+				<div class="col-xl-8 col-lg-8 level container-fluid w3-text-black">
+					<div class="w3-container">
 						<!-- academic level -->
 						<div>
-							<h3 class="title-level">Trình độ học vấn</h3>
-							<div class="name-school">Đại học khoa học tự nhiên - Đại học quốc gia hà nội</div>
-							<div class="time">(2016 - Hiện nay)</div>
+							<h3 class="title-level w3-left-align"><i style='font-size:20px' class='fa fa-certificate fa-fw w3-text-teal '></i>Trình độ học vấn</h3>
+							<div class="name-school w3-left-align">Đại học khoa học tự nhiên - Đại học quốc gia hà nội</div>
+							<div class="time w3-right-align"><i style='font-size:20px' class='far fa-fw'>&#xf073;</i>(2016 - Hiện nay)</div>
 							<p class="size-text">* Chuyên ngành: Máy tính và khoa học thông tin</p>
 							<p class="size-text">* Sinh viên năm tư</p>							
 							<p class="size-text format-text">- Tin học cơ sở 4: C</p>
@@ -236,11 +179,12 @@
 							<p class="size-text format-text">- Đồ án phần mềm: A</p>
 							<p class="size-text format-text">- Công nghệ phần mềm: B</p>							
 						</div>
+						<!-- end academic level-->
 						<!-- skill -->
 						<div>
-							<h3 class="title-level">Kĩ năng</h3>
+							<h3 class="title-level w3-left-align"><i style='font-size:20px' class='fa fa-certificate fa-fw w3-text-teal'></i>Kĩ năng</h3>
 							<div class="row ">
-								<p class="col-xl-5 col-lg-5 row-left size-text">html/css/boostrap</p>
+								<p class="col-xl-5 col-lg-5 row-left size-text w3-left-align">html/css/boostrap</p>
 								<div class="col-xl-7 col-lg-7">
 									<div class="w3-border">
 									  <div class="w3-blue" style="height:9px;width:80%"></div>
@@ -248,7 +192,7 @@
 								</div>
 							</div>
 							<div class="row">
-								<p class="col-xl-5 col-lg-5 row-left size-text">Java</p>
+								<p class="col-xl-5 col-lg-5 row-left size-text w3-left-align">Java</p>
 								<div class="col-xl-7 col-lg-7">
 									<div class="w3-border">
 									  <div class="w3-blue" style="height:9px;width:70%"></div>
@@ -256,7 +200,7 @@
 								</div>
 							</div>
 							<div class="row">
-								<p class="col-xl-5 col-lg-5 row-left size-text">MySQL</p>
+								<p class="col-xl-5 col-lg-5 row-left size-text w3-left-align">MySQL</p>
 								<div class="col-xl-7 col-lg-7">
 									<div class="w3-border">
 									  <div class="w3-blue" style="height:9px;width:70%"></div>
@@ -264,7 +208,7 @@
 								</div>
 							</div>
 							<div class="row">
-								<p class="col-xl-5 col-lg-5 row-left size-text">JavaScript</p>
+								<p class="col-xl-5 col-lg-5 row-left size-text w3-left-align">JavaScript</p>
 								<div class="col-xl-7 col-lg-7">
 									<div class="w3-border">
 									  <div class="w3-blue" style="height:9px;width:60%"></div>
@@ -272,7 +216,7 @@
 								</div>
 							</div>
 							<div class="row">
-								<p class="col-xl-5 col-lg-5 row-left size-text">TypeScript</p>
+								<p class="col-xl-5 col-lg-5 row-left size-text w3-left-align">TypeScript</p>
 								<div class="col-xl-7 col-lg-7">
 									<div class="w3-border">
 									  <div class="w3-blue" style="height:9px;width:40%"></div>
@@ -280,48 +224,68 @@
 								</div>
 							</div>
 							<div class="row">
-								<p class="col-xl-5 col-lg-5 row-left size-text">VueJS</p>
+								<p class="col-xl-5 col-lg-5 row-left size-text w3-left-align">VueJS</p>
 								<div class="col-xl-7 col-lg-7">
 									<div class="w3-border">
 									  <div class="w3-blue" style="height:9px;width:60%"></div>
 									</div>
 								</div>
-							</div>																				
+							</div>
+							<div class="row">
+								<p class="col-xl-5 col-lg-5 row-left size-text w3-left-align">Tiếng anh</p>
+								<div class="col-xl-7 col-lg-7">
+									<div class="w3-border">
+									  <div class="w3-blue" style="height:9px;width:70%"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<p class="col-xl-5 col-lg-5 row-left size-text w3-left-align">Tiếng nhật</p>
+								<div class="col-xl-7 col-lg-7">
+									<div class="w3-border">
+									  <div class="w3-blue" style="height:9px;width:20%"></div>
+									</div>
+								</div>
+							</div>																						
 						</div>
+						<!-- end skill-->
 						<!-- employment experience -->
 						<div>
-							<h3 class="title-level">Kinh nghiệm việc làm</h3>
+							<h3 class="title-level w3-left-align"><i style='font-size:20px' class='fa fa-certificate fa-fw w3-text-teal'></i>Kinh nghiệm việc làm</h3>
 							<div>
-								<div class="name-company">* Công ty HOUSE (Thực tập sinh)</div>
-								<div class="time">(06/2018 - 08/2018)</div>
+								<div class="name-company w3-left-align ">* Công ty HOUSE (Thực tập sinh)</div>
+								<div class="time w3-right-align"><i style='font-size:20px' class='far fa-fw'>&#xf073;</i>(06/2018 - 08/2018)</div>
 								<div class="size-text">- Tìm hiểu về HTML/CSS/Boostrap</div>
 								<div class="size-text">- Thực hành xây dựng các template có sẵn (HTML/CSS/Boostrap)</div>
-								<div class="size-text http"><a href="https://github.com/thuyxd/Polo360-Template">(https://github.com/thuyxd/Polo360-Template)</a></div>
+								<div class="size-text http w3-text-blue"><a href="https://github.com/thuyxd/Polo360-Template">(https://github.com/thuyxd/Polo360-Template)</a></div>
 								<div class="size-text">- Tham gia kiểm thử phần mềm (App HOUSE3D)</div>
 								<div class="size-text">- Xây dựng project WeatherAPP (HTML/CSS/Boostrap/JavaScript)</div>
-								<div class="size-text http"><a href="https://github.com/thuyxd/WeatherApp">(https://github.com/thuyxd/WeatherApp)</a></div>
+								<div class="size-text http w3-text-blue"><a href="https://github.com/thuyxd/WeatherApp">(https://github.com/thuyxd/WeatherApp)</a></div>
 							</div>
 							<div>
-								<div class="name-company">* Đồ án phần mềm</div>
-								<div class="time">(03/2019 - 05/2019)</div>
+								<div class="name-company w3-left-align">* Đồ án phần mềm</div>
+								<div class="time w3-right-align"><i style='font-size:20px' class='far fa-fw'>&#xf073;</i>(03/2019 - 05/2019)</div>
 								<div class="size-text">- BookingRoom (HTML/CSS/Boostrap/Spring Boot/Java)</div>
-								<div class="size-text http"><a href="https://github.com/thuyxd/Booking-Room">(https://github.com/thuyxd/Booking-Room)</a></div>
+								<div class="size-text http w3-text-blue"><a href="https://github.com/thuyxd/Booking-Room">(https://github.com/thuyxd/Booking-Room)</a></div>
 							</div>
 							<div>
-								<div class="name-company">* Công ty NEWWAVE</div>
-								<div class="time">(07/2019)</div>
+								<div class="name-company w3-left-align">* Công ty NEWWAVE</div>
+								<div class="time w3-right-align"><i style='font-size:20px' class='far fa-fw'>&#xf073;</i>(07/2019 -  09/2019)</div>
 								<div class="size-text">- Tìm hiểu về VueJS, Element UI, TypeScript. </div>
 								<div class="size-text">- Tham gia dự án WebWorks. </div>
 							</div>
 						</div>
+						<!-- end employment experience-->
 						<!-- interests -->
 						<div class="end">
-							<h3 class="title-level">Sở thích</h3>
+							<h3 class="title-level w3-left-align"><i style='font-size:20px' class='fa fa-certificate fa-fw w3-text-teal'></i>Sở thích</h3>
 							<div class="size-text">- Có đam mê về hình ảnh, màu sắc, thích chơi game có đồ họa đẹp. </div>
 							<div class="size-text">- Du lịch, nghe nhạc. </div>
 						</div>
+						<!-- end interests-->
 					</div>
 				</div>
+				<!-- end right col-->
 			</div>
 		</div>
 	</body>
